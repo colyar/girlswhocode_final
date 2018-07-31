@@ -1,3 +1,16 @@
+body {
+    background-color: #ECECEC;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: arial;
+    color: #60001c;
+    text-align: center;
+    background-color: #c6c6c6;
+}
+
 svg {
     touch-action: none;
 }
@@ -38,6 +51,7 @@ svg {
 .jvectormap-zoomin, .jvectormap-zoomout {
     width: 10px;
     height: 10px;
+    font-family: serif;
 }
 
 .jvectormap-zoomin {
