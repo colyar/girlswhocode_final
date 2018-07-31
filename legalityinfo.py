@@ -7,3 +7,8 @@ info = {
     death = ['Mauritania', 'Nigeria', 'Somalia', 'Sudan', 'Afghanistan', 'Iraq', 'Iran', 'Pakistan', 'Qatar', 'Saudi Arabia', 'Syria', 'United Arab Emirates', 'Yemen']
 
 }
+#illegal = D11300
+#legal = 139E0C
+#iffy = EB9707
+#death = 000000
+
