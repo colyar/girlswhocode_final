@@ -1,12 +1,14 @@
 body {
     background-color: #ECECEC;
     font-family: verdana;
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 h1 {
     font-family: arial;
-    color: #60001c;
+    color: #4e5b7b;
     text-align: center;
     background-color: #c6c6c6;
 }
@@ -52,6 +54,7 @@ svg {
     width: 10px;
     height: 10px;
     font-family: serif;
+    font-size: 18px;
 }
 
 .jvectormap-zoomin {
@@ -146,4 +149,25 @@ svg {
     vertical-align: middle;
     line-height: 20px;
     padding-left: 3px;
+}
+
+.q0-9 { fill: #D11300; }
+.q1-9 { fill: #139E0C; }
+.q2-9 { fill: #EB9707; }
+.q3-9 { fill: #000000; }
+
+#q0-9 { background-color: #D11300; }
+#q1-9 { background-color: #139E0C; }
+#q2-9 { background-color: #EB9707; }
+#q3-9 { background-color: #000000; }
+
+.block {
+  width:245px;
+  height: 26px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 4px;
+  color: #d3d3d3;
 }
