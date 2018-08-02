@@ -1,16 +1,36 @@
 body {
     background-color: #ECECEC;
-    font-family: verdana;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 h1 {
-    font-family: arial;
+    font-family: 'Catamaran', sans-serif;
     color: #4e5b7b;
     text-align: center;
-    background-color: #c6c6c6;
+    margin-bottom: 3px;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #202633;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    text-align: left;
+    font-size: 18px;
+}
+
+p {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  text-align: left;
+}
+
+a {
+  color: #4e5b7b;
 }
 
 svg {
@@ -162,14 +182,14 @@ svg {
 #q3-9 { background-color: #000000; }
 
 .block {
-  width:245px;
+  width:234px;
   height: 18px;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
   font-size: 14px;
   margin-top: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 4px;
+  padding-bottom: 7px;
   color: #f5f5f5;
 }
