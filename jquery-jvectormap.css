@@ -151,13 +151,13 @@ svg {
     padding-left: 3px;
 }
 
-.q0-9 { fill: #D11300; }
-.q1-9 { fill: #139E0C; }
+.q0-9 { fill: #139E0C; }
+.q1-9 { fill: #D11300; }
 .q2-9 { fill: #EB9707; }
 .q3-9 { fill: #000000; }
 
-#q0-9 { background-color: #D11300; }
-#q1-9 { background-color: #139E0C; }
+#q0-9 { background-color: #139E0C; }
+#q1-9 { background-color: #D11300; }
 #q2-9 { background-color: #EB9707; }
 #q3-9 { background-color: #000000; }
 
