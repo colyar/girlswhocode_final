@@ -156,18 +156,20 @@ svg {
 .q2-9 { fill: #EB9707; }
 .q3-9 { fill: #000000; }
 
-#q0-9 { background-color: #139E0C; }
+#q0-9 { background-color: #139E0c; }
 #q1-9 { background-color: #D11300; }
 #q2-9 { background-color: #EB9707; }
 #q3-9 { background-color: #000000; }
 
 .block {
   width:245px;
-  height: 26px;
+  height: 18px;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
   font-size: 14px;
-  margin-top: 4px;
-  color: #d3d3d3;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f5f5f5;
 }
