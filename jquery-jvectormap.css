@@ -171,20 +171,22 @@ svg {
     padding-left: 3px;
 }
 
-.q0-9 { fill: #139E0C; }
-.q1-9 { fill: #D11300; }
-.q2-9 { fill: #EB9707; }
+.q0-9 { fill: #15A52E; }
+.q1-9 { fill: #DE240A; }
+.q2-9 { fill: #E5C005; }
 .q3-9 { fill: #000000; }
-.q4-9 { fill: #FFFFFF; }
+.q4-9 { fill: #F0F0F0; }
 .q5-9 { fill: #AD50A8; }
 .q6-9 { fill: #3597EB; }
 
-#q0-9 { background-color: #139E0c; }
-#q1-9 { background-color: #D11300; }
-#q2-9 { background-color: #EB9707; }
+#q0-9 { background-color: #15A52E; }
+#q1-9 { background-color: #DE240A; }
+#q2-9 { background-color: #E5C005; }
 #q3-9 { background-color: #000000; }
-#q4-9 { background-color: #FFFFFF;
-        color: #000000} /* white */
+#q4-9 { background-color: #F0F0F0;  /* white */
+        color: #000000;
+        border: .5px solid #7F7F7F;
+      }
 #q5-9 { background-color: #AD50A8; } /* purple */
 #q6-9 { background-color: #3597EB; } /* blue */
 
@@ -208,4 +210,11 @@ svg {
 
 #note {
   font-size: 12px;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }
