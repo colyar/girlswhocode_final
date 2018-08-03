@@ -175,11 +175,18 @@ svg {
 .q1-9 { fill: #D11300; }
 .q2-9 { fill: #EB9707; }
 .q3-9 { fill: #000000; }
+.q4-9 { fill: #FFFFFF; }
+.q5-9 { fill: #AD50A8; }
+.q6-9 { fill: #3597EB; }
 
 #q0-9 { background-color: #139E0c; }
 #q1-9 { background-color: #D11300; }
 #q2-9 { background-color: #EB9707; }
 #q3-9 { background-color: #000000; }
+#q4-9 { background-color: #FFFFFF;
+        color: #000000} /* white */
+#q5-9 { background-color: #AD50A8; } /* purple */
+#q6-9 { background-color: #3597EB; } /* blue */
 
 .block {
   width:234px;
