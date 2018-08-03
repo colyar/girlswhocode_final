@@ -2,7 +2,7 @@
 <html>
   <link href="https://fonts.googleapis.com/css?family=Catamaran|Open+Sans" rel="stylesheet">
 <head>
-  <title>Homosexual Legality Status | Home</title>
+  <title>Gay Rights Map | Marriage</title>
   <link rel="stylesheet" media="all" href="../jquery-jvectormap.css"/>
   <script src="assets/jquery-1.8.2.js"></script>
   <script src="../jquery-jvectormap.js"></script>
@@ -73,9 +73,12 @@
   //      },
         series: {
           regions: [{
-            scale: ['#FFFFFF', '#AD50A8', '#3597EB'],
+            scale: ['#F0F0F0', '#AD50A8', '#3597EB'],
             normalizeFunction: 'polynomial',
             values: {
+              "_0": 0,
+              "_1": 0,
+              "_2": 0,
               "AF": 0,
               "AL": 0,
               "DZ": 0,
@@ -118,6 +121,7 @@
               "CR": 0,
               "CI": 0,
               "HR": 400,
+              "CU": 0,
               "CY": 400,
               "CZ": 400,
               "DK": 5000,
@@ -130,9 +134,11 @@
               "GQ": 0,
               "ER": 0,
               "EE": 400,
+              "EH": 0,
               "ET": 0,
               "FJ": 0,
               "FI": 5000,
+              "FK": 5000,
               "FR": 5000,
               "GA": 0,
               "GM": 0,
@@ -145,6 +151,7 @@
               "GN": 0,
               "GW": 0,
               "GY": 0,
+              "GL": 5000,
               "HT": 0,
               "HN": 0,
               "HK": 0,
@@ -164,6 +171,7 @@
               "KE": 0,
               "KI": 0,
               "KR": 0,
+              "KP": 0,
               "KW": 0,
               "KG": 0,
               "LA": 0,
@@ -195,6 +203,7 @@
               "NL": 5000,
               "NZ": 5000,
               "NI": 0,
+              "NC": 5000,
               "NE": 0,
               "NG": 0,
               "NO": 5000,
@@ -206,6 +215,8 @@
               "PE": 0,
               "PH": 0,
               "PL": 0,
+              "PR": 5000,
+              "PS": 0,
               "PT": 5000,
               "QA": 0,
               "RO": 0,
@@ -215,6 +226,7 @@
               "ST": 0,
               "SA": 0,
               "SN": 0,
+              "SS": 0,
               "RS": 0,
               "SC": 0,
               "SL": 0,
@@ -229,6 +241,7 @@
               "LC": 0,
               "VC": 0,
               "SD": 0,
+              "SO": 0,
               "SR": 0,
               "SZ": 0,
               "SE": 5000,
@@ -236,6 +249,7 @@
               "SY": 0,
               "TW": 400,
               "TJ": 0,
+              "TF": 5000,
               "TZ": 0,
               "TH": 0,
               "TL": 0,
@@ -258,8 +272,6 @@
               "YE": 0,
               "ZM": 0,
               "ZW": 0
-
-
             }
           }]
         }
@@ -269,7 +281,7 @@
 </head>
 <body>
   <h1>Gay Marriage Status Around The World</h1>
-  <p>In many nations around the world, exhibiting homosexual behavior is illegal, and can lead to jail or even death. Here are those countries, and <a href='help.html'>here's what you can do to help.</a></p>
+  <p style="text-align:left;">In many nations around the world, exhibiting homosexual behavior is illegal, and can lead to jail or even death. Here are those countries, and <a href='help.html'>here's what you can do to help.</a><span style="float:right;"><a href = "basic - Copy.html">Curious about legality status?</a></p>
   <div id = "note"><p>Note: This map only shows the legal status. De facto discrimination may still occur in countries where homosexuality is legal.</p></div>
   <center><div id="map1" style="width: 950px; height: 395px"></div></center>
   <center><div class="legend">

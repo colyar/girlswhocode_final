@@ -2,7 +2,7 @@
 <html>
   <link href="https://fonts.googleapis.com/css?family=Catamaran|Open+Sans" rel="stylesheet">
 <head>
-  <title>Homosexual Legality Status | Home</title>
+  <title>Gay Rights Map | Home</title>
   <link rel="stylesheet" media="all" href="../jquery-jvectormap.css"/>
   <script src="assets/jquery-1.8.2.js"></script>
   <script src="../jquery-jvectormap.js"></script>
@@ -74,10 +74,13 @@
   //      },
         series: {
           regions: [{
-            scale: ['#D11300', '#139E0C', '#EB9707', '#000000'],
+            scale: ['#DE240A', '#15A52E', '#F6CE05', '#000000'],
             normalizeFunction: 'polynomial',
             values: {
-              "AF": 900,
+              "_0": 50,
+              "_1": 50,
+              "_2": 10000,
+              "AF": 700,
               "AL": 50,
               "DZ": 0,
               "AO": 0,
@@ -114,6 +117,7 @@
               "CN": 50,
               "CO": 50,
               "KM": 0,
+              "CU": 50,
               "CD": 50,
               "CG": 50,
               "CR": 50,
@@ -127,6 +131,7 @@
               "DO": 50,
               "EC": 50,
               "EG": 0,
+              "EH": 0,
               "SV": 50,
               "GQ": 50,
               "ER": 0,
@@ -134,6 +139,7 @@
               "ET": 0,
               "FJ": 50,
               "FI": 50,
+              "FK": 50,
               "FR": 50,
               "GA": 50,
               "GM": 0,
@@ -141,6 +147,7 @@
               "DE": 50,
               "GH": 0,
               "GR": 50,
+              "GL": 50,
               "GD": 0,
               "GT": 50,
               "GN": 0,
@@ -164,6 +171,7 @@
               "KZ": 50,
               "KE": 0,
               "KI": 0,
+              "KP": 700,
               "KR": 50,
               "KW": 0,
               "KG": 50,
@@ -182,7 +190,7 @@
               "MV": 0,
               "ML": 50,
               "MT": 50,
-              "MR": 900,
+              "MR": 700,
               "MU": 0,
               "MX": 50,
               "MD": 50,
@@ -191,16 +199,17 @@
               "MA": 0,
               "MZ": 50,
               "MM": 0,
-              "NA": 900,
+              "NA": 700,
               "NP": 50,
+              "NC": 50,
               "NL": 50,
               "NZ": 50,
               "NI": 50,
               "NE": 50,
-              "NG": 900,
+              "NG": 700,
               "NO": 50,
               "OM": 0,
-              "PK": 900,
+              "PK": 700,
               "PA": 50,
               "PG": 0,
               "PY": 50,
@@ -208,9 +217,10 @@
               "PH": 50,
               "PL": 50,
               "PT": 50,
+              "PR": 50,
               "QA": 0,
               "RO": 50,
-              "RU": 50,
+              "RU": 700,
               "RW": 50,
               "WS": 0,
               "ST": 50,
@@ -230,15 +240,18 @@
               "LC": 0,
               "VC": 0,
               "SD": 10000,
+              "SO": 700,
               "SR": 50,
+              "SS": 0,
               "SZ": 0,
               "SE": 50,
               "CH": 50,
-              "SY": 900,
+              "SY": 700,
               "TW": 50,
               "TJ": 50,
               "TZ": 0,
               "TH": 50,
+              "TF": 50,
               "TL": 50,
               "TG": 0,
               "TO": 0,
@@ -267,24 +280,29 @@
   </script>
 </head>
 <body>
-  <h1>Homosexual Legality Status Around the World (As of 2017)</h1>
-  <p>In many nations around the world, exhibiting homosexual behavior is illegal, and can lead to jail or even death. Here are those countries, and <a href='help.html'>here's what you can do to help.</a></p>
+  <h1>Homosexual Legality Status Around the World</h1>
+  <p style="text-align:left;">In many nations around the world, exhibiting homosexual behavior is illegal, and can lead to jail or even death. Here are those countries, and <a href='help.html'>here's what you can do to help.</a><span style="float:right;"><a href = "copyofthecopy.html">Curious about marriage laws?</a></p>
+  <div style="clear: both;"></div>
   <div id = "note"><p>Note: This map only shows the legal status. De facto discrimination may still occur in countries where homosexuality is legal.</p></div>
   <center><div id="map1" style="width: 950px; height: 395px"></div></center>
   <center><div class="legend">
     <div class="block" id="q0-9">legal</div>
     <div class="block" id="q1-9">illegal</div>
-    <div class="block" id="q2-9">complicated</div>
+    <div class="block" id="q2-9">complicated*</div>
     <div class="block" id="q3-9">death sentence</div>
   </div></center>
   <br>
-  <h3>More Info on Complicated Nations</h3>
-  <p>Afghanistan - Sharia law gives homosexuality a maximum of the death penalty, but no deaths have been recorded since the end of Taliban rule.</p>
-  <p>Mauritania - Gay men can be stoned to death by law, but no cases have been reported. Women only face prison.</p>
+  <h3>*More Info on Complicated Nations</h3>
+  <p>Afghanistan - Sharia law gives homosexuality a maximum of the death penalty, but no deaths have been recorded since the end of Taliban rule. (WP)</p>
+  <p>Mauritania - Gay men can be stoned to death by law, but no cases have been reported. Women only face prison. (WP)</p>
   <p>Namibia - Homosexuality is legal, but sodomy is criminalized and is punishable by jail, though it is rarely enforced.</p>
-  <p>Nigeria - Some states have adopted sharia law and imposed a death penalty for men.</p>
-  <p>Pakistan - Death penalty laws exist, but are unlikely to be implemented.</p>
-  <p>Syria - Non-state sectors implement death</p>
+  <p>Nigeria - Some states have adopted sharia law and imposed a death penalty for men. (WP)</p>
+  <p>North Korea - 2009 revisions of the national penal code may contain provisions that could potentially be used against LGBT people in a discriminatory manner, depending on interpretation. (Wikipedia)</p>
+  <p>Pakistan - Death penalty laws exist, but are unlikely to be implemented. (WP)</p>
+  <p>Palestine - Some states outlaw homosexuality. (ILGA)</p>
+  <p>Russia - Homosexual activity was decriminalized in 1993, but in 2013, a ban on adoption of children by all couples in countries where same-sex marriage is legal was imposed, as well as a ban on homosexual propaganda. (WP)</p>
+  <p>Somalia - The penal code stipulates prison, but in some southern regions, Islamic courts have imposed Sharia law and the death penalty. (WP)</p>
+  <p>Syria - Non-state sectors implement death. (ILGA)</p>
 
 <!--  <button id="focus-single">Focus on Australia</button>
   <button id="focus-multiple">Focus on Australia and Japan</button>
